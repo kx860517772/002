@@ -28,6 +28,7 @@
 </div>
 <script>
 	window.onload = function(){
+    const max_img_no = 12;
     const hide_img = document.getElementById("hide")
     const show_img = document.getElementById("show")
     let hide_img_no = 2;
@@ -50,6 +51,12 @@
             show_img.style.filter = 'alpha(opacity='+alpha_show+')';
             show_img.style.opacity = alpha_show/100;
             show_img.style = "background-image: url('img/" + show_img_no.toString() + ".jpg')"
+            if (show_img_no == max_img_no) {
+              show_img_no = 0;
+            }
+            if (hide_img_no == max_img_no) {
+              hide_img_no = 0;
+            }
             hide_img_no += 1;
             show_img_no += 1;
           } else {
