@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="referrer" content="never">
+<title>章节15</title>
+<style>img{width:100%;}</style>
+<script>
+ const src = new Array();
+src.push("https://img.plmm.com.cn/xinggan/20180807/2c2987f6e294a8a9.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180807/81bf173f3733a3fe.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180807/2232b1668399e000.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180807/76e86efaee2f3733.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180807/b9044eac4725476d.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180807/df066c22b529523c.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180807/64f822ca14eabbb3.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180807/f96081d85ba8485e.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180807/ded947cd659e7412.jpg@!w1200");
+function preload(src, index) {index = index || 0;if (src && src.length > index) {const img = new Image();img.onload = function() {preload(src, index + 1);};img.src = src[index];}}preload(src);
+</script>
+</head>
+<body>
+<img src="https://img.plmm.com.cn/xinggan/20180807/2c2987f6e294a8a9.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180807/81bf173f3733a3fe.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180807/2232b1668399e000.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180807/76e86efaee2f3733.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180807/b9044eac4725476d.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180807/df066c22b529523c.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180807/64f822ca14eabbb3.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180807/f96081d85ba8485e.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180807/ded947cd659e7412.jpg@!w1200">
+</body>
+</html>
