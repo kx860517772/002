@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="referrer" content="never">
+<title>章节11</title>
+<style>img{width:100%;}</style>
+<script>
+ const src = new Array();
+src.push("https://img.plmm.com.cn/xinggan/20180703/a79670224f0be00e.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180703/529ad3a3fe852829.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180703/2facec3b02c52b2a.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180703/e4cb5a24d55a4be3.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180703/238d3f86ffc63141.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180703/01cee9c6ddab87f1.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180703/d85ab6ff87ef840f.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180703/3f7671ad79608e31.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180703/ada9b0af024c64bb.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180703/18f3d92ff731d46c.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180703/f64479ae7097de20.jpg@!w1200");
+function preload(src, index) {index = index || 0;if (src && src.length > index) {const img = new Image();img.onload = function() {preload(src, index + 1);};img.src = src[index];}}preload(src);
+</script>
+</head>
+<body>
+<img src="https://img.plmm.com.cn/xinggan/20180703/a79670224f0be00e.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180703/529ad3a3fe852829.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180703/2facec3b02c52b2a.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180703/e4cb5a24d55a4be3.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180703/238d3f86ffc63141.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180703/01cee9c6ddab87f1.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180703/d85ab6ff87ef840f.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180703/3f7671ad79608e31.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180703/ada9b0af024c64bb.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180703/18f3d92ff731d46c.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180703/f64479ae7097de20.jpg@!w1200">
+</body>
+</html>
