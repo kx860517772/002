@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="referrer" content="never">
+<title>章节3</title>
+<style>img{width:100%;}</style>
+<script>
+ const src = new Array();
+src.push("https://img.plmm.com.cn/xinggan/20180928/1c1fc0eb4abb7108.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180928/3eca1b2d4eff728a.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180928/2f724fc7c2ddd85c.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180928/9dfb098a337e2d5b.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180928/7795b7b9922430fa.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180928/11be2a6278f65fe4.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180928/0c08eafecb8a7b0b.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180928/4cebbb6e2a2835d9.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180928/eb64e93f31488f87.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180928/69057a1493e2fba8.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180928/b43bf46360c2cd87.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20180928/246852e051490b13.jpg@!w1200");
+function preload(src, index) {index = index || 0;if (src && src.length > index) {const img = new Image();img.onload = function() {preload(src, index + 1);};img.src = src[index];}}preload(src);
+</script>
+</head>
+<body>
+<img src="https://img.plmm.com.cn/xinggan/20180928/1c1fc0eb4abb7108.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180928/3eca1b2d4eff728a.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180928/2f724fc7c2ddd85c.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180928/9dfb098a337e2d5b.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180928/7795b7b9922430fa.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180928/11be2a6278f65fe4.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180928/0c08eafecb8a7b0b.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180928/4cebbb6e2a2835d9.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180928/eb64e93f31488f87.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180928/69057a1493e2fba8.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180928/b43bf46360c2cd87.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20180928/246852e051490b13.jpg@!w1200">
+</body>
+</html>
