@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="referrer" content="never">
+<title>章节111</title>
+<style>img{width:100%;}</style>
+<script>
+ const src = new Array();
+src.push("https://img.plmm.com.cn/xinggan/20171204/c4728f38d08b1371.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20171204/80de6e059aa94c9f.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20171204/36494f28cf984893.jpg@!w1200");
+src.push("https://img.plmm.com.cn/xinggan/20171204/5159b3b250c1307e.jpg@!w1200");
+function preload(src, index) {index = index || 0;if (src && src.length > index) {const img = new Image();img.onload = function() {preload(src, index + 1);};img.src = src[index];}}preload(src);
+</script>
+</head>
+<body>
+<img src="https://img.plmm.com.cn/xinggan/20171204/c4728f38d08b1371.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20171204/80de6e059aa94c9f.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20171204/36494f28cf984893.jpg@!w1200">
+<img src="https://img.plmm.com.cn/xinggan/20171204/5159b3b250c1307e.jpg@!w1200">
+</body>
+</html>
